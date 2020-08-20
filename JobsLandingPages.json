@@ -1,0 +1,738 @@
+{
+  "$id": "Jobs Landing Pages",
+  "$schema": "https://schema.yext.com/config/pages/page-builder-template/v1",
+  "EntityTypeName": "job",
+  "PageSetConfig": {
+    "ContentMapping": {
+      "ModuleMappings": [
+        {
+          "ContentMapEntries": [
+            {
+              "ExternalEntityId": "",
+              "InputType": "",
+              "SelectedField": [
+                "logo"
+              ],
+              "Sink": "logo"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "",
+              "Sink": "logoUrl"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "CONSTANT",
+              "Sink": "link1Text",
+              "StringValue": "Restaurants"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "",
+              "Sink": "link1Url",
+              "StringValue": "#"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "CONSTANT",
+              "Sink": "link2Text",
+              "StringValue": "Careers"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "",
+              "Sink": "link2Url",
+              "StringValue": "#"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "CONSTANT",
+              "Sink": "link3Text",
+              "StringValue": "Community Stories"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "",
+              "Sink": "link3Url",
+              "StringValue": "#"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "CONSTANT",
+              "Sink": "link4Text",
+              "StringValue": "Events"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "",
+              "Sink": "link4Url",
+              "StringValue": "#"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "CONSTANT",
+              "Sink": "link5Text",
+              "StringValue": "FAQs"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "",
+              "Sink": "link5Url",
+              "StringValue": "#"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "CONSTANT",
+              "Sink": "link6Text",
+              "StringValue": "The Turtlehead Fun Zone"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "",
+              "Sink": "link6Url",
+              "StringValue": "#"
+            }
+          ],
+          "DefaultScss": ".module-navbar {\n\tpadding: 0;\n}\n\n.module-navbar-bg-color {\n  background-color: #f8f9fa;\n}\n\n.module-navbar .navbar-brand img {\n\theight: 50px; //height of the logo\n}\n\n.nav-link {\n    margin: 0 15px;\n}\n",
+          "Js": "",
+          "ListParamEntries": [],
+          "ModuleId": "HJH_0t9l9v",
+          "Scss": ".module-navbar {\n\tpadding: 0;\n}\n\n.module-navbar-bg-color {\n  background-color: #f8f9fa;\n}\n\n.module-navbar .navbar-brand img {\n\theight: 50px; //height of the logo\n}\n\n.nav-link {\n    margin: 0 15px;\n}\n"
+        },
+        {
+          "ContentMapEntries": [
+            {
+              "ExternalEntityId": "",
+              "InputType": "",
+              "SelectedField": [
+                "name"
+              ],
+              "Sink": "headline"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "",
+              "SelectedField": [
+                "hiringOrganization"
+              ],
+              "Sink": "paragraph"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "",
+              "SelectedField": [
+                "c_jobPhoto"
+              ],
+              "Sink": "image"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "CONSTANT",
+              "Sink": "buttonText",
+              "StringValue": "Apply Now"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "",
+              "SelectedField": [
+                "applicationUrl"
+              ],
+              "Sink": "buttonUrl"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "",
+              "Sink": "button2Text",
+              "StringValue": "Secondary CTA"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "",
+              "Sink": "button2Url"
+            }
+          ],
+          "DefaultScss": "// Choose the color overlay on the image\n$overlay-color: transparentize(black, 0.4);\n$font-color: white;\n\n.image-outer-container {\n    background-color: #212529;\n    background-size: cover;\n    background-position: center center;\n    background-repeat: no-repeat;\n\n    .image-overlay {\n        padding: 4rem 0;\n        color: $font-color;\n        \u0026h1,h2,h3 {\n            color: $font-color;\n        }\n        text-align: center;\n        background-color: $overlay-color;\n\n        .image-inner-container {\n            margin: 0 auto;\n            max-width: 800px;\n            display: flex;\n            flex-direction: column;\n            align-items: center;\n\n            .headline {\n            }\n\n            .paragraph {\n                width: 100%;\n            }\n\n            .ctas {\n                a {\n                    margin-bottom: 0.5rem;\n\n                    \u0026:not(:last-child) {\n                        margin-right: 0.5rem;\n                    }\n\n                    \u0026.primary-cta {\n\n                    }\n\n                    \u0026.secondary-cta {\n\n                    }\n                }\n            }\n        }\n    }\n}\n",
+          "Js": "",
+          "ListParamEntries": [],
+          "ModuleId": "u99U0wuYuR",
+          "Scss": "// Choose the color overlay on the image\n$overlay-color: transparentize(black, 0.7);\n$font-color: white;\n\n.image-outer-container {\n    background-color: #212529;\n    background-size: cover;\n    background-position: center center;\n    background-repeat: no-repeat;\n\n    .image-overlay {\n        padding: 4rem 0;\n        color: $font-color;\n        \u0026h1,h2,h3 {\n            color: $font-color;\n        }\n        text-align: center;\n        background-color: $overlay-color;\n\n        .image-inner-container {\n            margin: 0 auto;\n            max-width: 800px;\n            display: flex;\n            flex-direction: column;\n            align-items: center;\n\n            .headline {\n            }\n\n            .paragraph {\n                width: 100%;\n            }\n\n            .ctas {\n                a {\n                    margin-bottom: 0.5rem;\n\n                    \u0026:not(:last-child) {\n                        margin-right: 0.5rem;\n                    }\n\n                    \u0026.primary-cta {\n\n                    }\n\n                    \u0026.secondary-cta {\n\n                    }\n                }\n            }\n        }\n    }\n}\n"
+        },
+        {
+          "ContentMapEntries": [
+            {
+              "ExternalEntityId": "",
+              "InputType": "",
+              "SelectedField": [
+                "name"
+              ],
+              "Sink": "name"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "",
+              "SelectedField": [
+                "description"
+              ],
+              "Sink": "description"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "CONSTANT",
+              "Sink": "buttonText",
+              "StringValue": "Join the Turtleheads"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "",
+              "SelectedField": [
+                "applicationUrl"
+              ],
+              "Sink": "buttonUrl"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "",
+              "SelectedField": [
+                "logo"
+              ],
+              "Sink": "image"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "",
+              "Sink": "locationHeading",
+              "StringValue": "Location"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "",
+              "Sink": "location"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "",
+              "Sink": "hiringOrganizationHeading",
+              "StringValue": "Hiring Organization"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "",
+              "SelectedField": [
+                "hiringOrganization"
+              ],
+              "Sink": "hiringOrganization"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "",
+              "Sink": "employmentTypeHeading",
+              "StringValue": "Employment Type"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "",
+              "SelectedField": [
+                "employmentType"
+              ],
+              "Sink": "employmentType"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "",
+              "Sink": "datePostedHeading",
+              "StringValue": "Date Posted"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "",
+              "SelectedField": [
+                "datePosted"
+              ],
+              "Sink": "datePosted"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "",
+              "Sink": "additionalHeading"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "",
+              "Sink": "additionalText"
+            }
+          ],
+          "DefaultScss": "padding: 2rem 0px;\n\n$mobile-breakpoint: 767px;\n\n.image {\n  object-fit: contain;\n  max-width: 100%;\n  width: 100%;\n\n  \u0026-container {\n    flex-shrink: 0;\n  }\n}\n\n.content {\n  \u0026:not(:first-child) {\n    margin-top: 1rem;\n  }\n\n  font-size: 16px;\n\n  \u0026-heading {\n    font-weight: bold;\n    margin-bottom: .5rem;\n  }\n}\n\n.lp-param-name {\n  font-size: 32px;\n  line-height: 40px;\n  letter-spacing: 0;\n}\n\n.description {\n  margin-bottom: 1rem;\n  font-size: 16px;\n  line-height: 22.5px;\n}\n\n@media (max-width: $mobile-breakpoint) {\n  .lp-param-buttonUrl {\n    width: 100%;\n  }\n}\n",
+          "Js": "",
+          "ListParamEntries": [],
+          "ModuleId": "J9u_xt9l9_",
+          "Scss": "padding: 2rem 0px;\n\n$mobile-breakpoint: 767px;\n\n.image {\n  object-fit: contain;\n  max-width: 100%;\n  width: 100%;\n\n  \u0026-container {\n    flex-shrink: 0;\n  }\n}\n\n.content {\n  \u0026:not(:first-child) {\n    margin-top: 1rem;\n  }\n\n  font-size: 16px;\n\n  \u0026-heading {\n    font-weight: bold;\n    margin-bottom: .5rem;\n  }\n}\n\n.lp-param-name {\n  font-size: 32px;\n  line-height: 40px;\n  letter-spacing: 0;\n}\n\n.description {\n  margin-bottom: 1rem;\n  font-size: 16px;\n  line-height: 22.5px;\n}\n\n@media (max-width: $mobile-breakpoint) {\n  .lp-param-buttonUrl {\n    width: 100%;\n  }\n}\n"
+        },
+        {
+          "ContentMapEntries": [
+            {
+              "ExternalEntityId": "",
+              "InputType": "CONSTANT",
+              "Sink": "headline",
+              "StringValue": "Frequently Asked Questions"
+            }
+          ],
+          "DefaultScss": "$mobile-breakpoint: 768px;\n$lg-breakpoint: 992px;\n$xl-breakpoint: 1200px;\n$spacer: 16px;\n\n.headline {\n    font-size: 2em;\n    margin: 0px;\n    padding-bottom: $spacer;\n}\n\n.item-col {\n    margin-bottom: ($spacer * 2);\n}\n\n.item {\n    height: 100%;\n    position: relative;\n    background-color: #f2f2f2;\n    text-align: left;\n    display: flex;\n    flex-direction: column;\n\n    .image {\n        object-fit: contain;\n        max-width: 100%;\n        width: 100%;\n\n      \u0026-container {\n        flex-shrink: 0;\n      }\n    }\n\n    .title {\n        font-size: 1.5em;\n        font-weight: normal;\n        margin: 0px;\n        padding: $spacer $spacer 0px;\n        word-break: break-word;\n    }\n\n    .subtitle {\n        font-size: 1.25em;\n        font-weight: normal;\n        margin: 0px;\n        padding: $spacer $spacer 0px;\n    }\n\n    .description {\n        margin: 0px;\n        padding: $spacer $spacer 0px;\n        font-size: 1em;\n        --description-length: 300;\n    }\n\n    .cta-container {\n        display: flex;\n        align-items: flex-end;\n        height: 100%;\n\n        .cta {\n            font-size: 1em;\n            color: #0041ff;\n            text-decoration: none;\n            padding: $spacer;\n        }\n    }\n}\n\n@media (max-width: $mobile-breakpoint) {\n    .headline {\n        text-align: center;\n    }\n\n    .item-col {\n        text-align: center;\n    }\n}\n",
+          "Js": "",
+          "ListParamEntries": [
+            {
+              "ContentMapEntries": [
+                {
+                  "ExternalEntityId": "",
+                  "InputType": "",
+                  "SelectedField": [
+                    "name"
+                  ],
+                  "Sink": "title"
+                },
+                {
+                  "ExternalEntityId": "",
+                  "InputType": "",
+                  "SelectedField": [
+                    "hiringOrganization"
+                  ],
+                  "Sink": "subtitle"
+                },
+                {
+                  "ExternalEntityId": "",
+                  "InputType": "",
+                  "SelectedField": [
+                    "logo"
+                  ],
+                  "Sink": "image"
+                },
+                {
+                  "ExternalEntityId": "",
+                  "InputType": "",
+                  "SelectedField": [
+                    "answer"
+                  ],
+                  "Sink": "description"
+                },
+                {
+                  "ExternalEntityId": "",
+                  "InputType": "FIELD",
+                  "SelectedField": [
+                    "c_primaryCTA",
+                    "label"
+                  ],
+                  "Sink": "infoLinkText"
+                },
+                {
+                  "ExternalEntityId": "",
+                  "InputType": "",
+                  "SelectedField": [
+                    "c_primaryCTA",
+                    "link"
+                  ],
+                  "Sink": "infoLink"
+                }
+              ],
+              "ListParamSource": {
+                "AlternateExternalEntityId": "",
+                "EntityTypeName": "location",
+                "RelationshipField": "c_associatedFAQs",
+                "Reviews": false,
+                "SavedSearch": ""
+              },
+              "Sink": "items"
+            }
+          ],
+          "ModuleId": "uJHUxsuyu_",
+          "Scss": "$mobile-breakpoint: 768px;\n$lg-breakpoint: 992px;\n$xl-breakpoint: 1200px;\n$spacer: 16px;\n\n.headline {\n    font-size: 2em;\n    margin: 0px;\n    padding-bottom: $spacer;\n}\n\n.item-col {\n    margin-bottom: ($spacer * 2);\n}\n\n.item {\n    height: 100%;\n    position: relative;\n    background-color: #f2f2f2;\n    text-align: left;\n    display: flex;\n    flex-direction: column;\n\n    .image {\n        object-fit: contain;\n        max-width: 100%;\n        width: 100%;\n\n      \u0026-container {\n        flex-shrink: 0;\n      }\n    }\n\n    .title {\n        font-size: 1.5em;\n        font-weight: bold;\n        margin: 0px;\n        padding: $spacer $spacer 0px;\n        word-break: break-word;\n       font-family: \"Lato\", sans-serif;\n    }\n\n    .subtitle {\n        font-size: 1.25em;\n        font-weight: normal;\n        margin: 0px;\n        padding: $spacer $spacer 0px;\n    }\n\n    .description {\n        margin: 0px;\n        padding: $spacer $spacer 0px;\n        font-size: 1em;\n        --description-length: 300;\n    }\n\n    .cta-container {\n        display: flex;\n        align-items: flex-end;\n        height: 100%;\n\n        .cta {\n            font-size: 1em;\n            color: #c81500;\n            text-decoration: none;\n            padding: $spacer;\n        }\n    }\n}\n\n@media (max-width: $mobile-breakpoint) {\n    .headline {\n        text-align: center;\n    }\n\n    .item-col {\n        text-align: center;\n    }\n}\n"
+        },
+        {
+          "ContentMapEntries": [
+            {
+              "ExternalEntityId": "",
+              "InputType": "",
+              "Sink": "caption",
+              "StringValue": "© 2018 Cobalt Design System. All Rights Reserved."
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "",
+              "Sink": "link1Text",
+              "StringValue": "Privacy"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "",
+              "Sink": "link1Url",
+              "StringValue": "#"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "",
+              "Sink": "link2Text",
+              "StringValue": "Terms of Service"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "",
+              "Sink": "link2Url",
+              "StringValue": "#"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "",
+              "Sink": "link3Text",
+              "StringValue": "Sitemap"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "",
+              "Sink": "link3Url",
+              "StringValue": "#"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "",
+              "Sink": "link4Text",
+              "StringValue": "Footer Link"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "",
+              "Sink": "link4Url",
+              "StringValue": "#"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "",
+              "Sink": "link5Text",
+              "StringValue": "Footer Link"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "",
+              "Sink": "link5Url",
+              "StringValue": "#"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "",
+              "Sink": "link6Text",
+              "StringValue": "Footer Link"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "",
+              "Sink": "link6Url",
+              "StringValue": "#"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "",
+              "Sink": "link7Text",
+              "StringValue": "Footer Link"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "",
+              "Sink": "link7Url",
+              "StringValue": "#"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "",
+              "SelectedField": [
+                "facebookPageUrl"
+              ],
+              "Sink": "facebook"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "",
+              "Sink": "youtube"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "",
+              "Sink": "pinterest"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "",
+              "Sink": "linkedin"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "",
+              "SelectedField": [
+                "twitterHandle"
+              ],
+              "Sink": "twitterHandle"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "",
+              "SelectedField": [
+                "instagramHandle"
+              ],
+              "Sink": "instagramHandle"
+            }
+          ],
+          "DefaultScss": "$background-color: #e9ecef;\n$link-color: #212529;\n$mobile-breakpoint: 768px;\n\nbackground-color: $background-color;\npadding: 2rem 0;\n\n.footer-links {\n    display: flex;\n    justify-content: start;\n    padding-left: 0rem;\n\n    .footer-link {\n        padding: 0rem .5rem;\n        text-decoration: underline;\n        color: $link-color;\n\n        \u0026:first-child {\n            padding-left: 0px;\n        }\n\n        \u0026:hover {\n            text-decoration: none;\n        }\n    }\n}\n\n.col:empty {\n    display: none;\n}\n\n.caption-text {\n    padding-top: 1rem;\n    justify-content: start;\n}\n\n@media (max-width: $mobile-breakpoint) {\n    text-align: center;\n\n    .caption-text {\n        justify-content: center;\n    }\n\n    .footer-links {\n        flex-direction: column;\n        align-items: center;\n\n        .footer-link {\n            padding: 0.5rem 0rem;\n        }\n    }\n}\n\n.social-icon {\n    align-items: center;\n    display: flex;\n    justify-content: center;\n    height: 45px;\n    width: 45px;\n\n    .icon-img {\n        filter: invert(1); // make it black\n    }\n}",
+          "Js": "",
+          "ListParamEntries": [],
+          "ModuleId": "JH9R4tHluv",
+          "Scss": "$background-color: #e9ecef;\n$link-color: #212529;\n$mobile-breakpoint: 768px;\n\nbackground-color: $background-color;\npadding: 2rem 0;\n\n.footer-links {\n    display: flex;\n    justify-content: start;\n    padding-left: 0rem;\n\n    .footer-link {\n        padding: 0rem .5rem;\n        text-decoration: underline;\n        color: $link-color;\n\n        \u0026:first-child {\n            padding-left: 0px;\n        }\n\n        \u0026:hover {\n            text-decoration: none;\n        }\n    }\n}\n\n.col:empty {\n    display: none;\n}\n\n.caption-text {\n    padding-top: 1rem;\n    justify-content: start;\n}\n\n@media (max-width: $mobile-breakpoint) {\n    text-align: center;\n\n    .caption-text {\n        justify-content: center;\n    }\n\n    .footer-links {\n        flex-direction: column;\n        align-items: center;\n\n        .footer-link {\n            padding: 0.5rem 0rem;\n        }\n    }\n}\n\n.social-icon {\n    align-items: center;\n    display: flex;\n    justify-content: center;\n    height: 45px;\n    width: 45px;\n\n    .icon-img {\n        filter: invert(1); // make it black\n    }\n}"
+        },
+        {
+          "ContentMapEntries": [
+            {
+              "ExternalEntityId": "",
+              "InputType": "CONSTANT",
+              "Sink": "headline",
+              "StringValue": "Benefits of Working at Turtlehead Tacos"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "CONSTANT",
+              "Sink": "paragraph",
+              "StringValue": ""
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "",
+              "SelectedField": [
+                "none"
+              ],
+              "Sink": "image"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "FIELD",
+              "SelectedField": [
+                "c_benefits"
+              ],
+              "Sink": "textList"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "FIELD",
+              "SelectedField": [
+                "none"
+              ],
+              "Sink": "buttonText"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "",
+              "Sink": "buttonUrl",
+              "StringValue": "#"
+            }
+          ],
+          "DefaultScss": "$mobile-breakpoint: 767px;\n\nul {\n  margin-left: -20px;\n}\n\nli:not(:first-child) {\n  margin-top: 1rem;\n}\n\n.module-container {\n  padding: 2rem;\n}\n\n.headline {\n  font-weight: 500;\n  text-align: center;\n}\n\n.paragraph {\n  font-size: 16px;\n  text-align: center;\n\n  \u0026-row {\n    margin-top: 2rem;\n  }\n}\n\n.body {\n  \u0026-row {\n    margin-top: 2rem;\n  }\n\n  \u0026-section {\n    justify-content: center;\n  }\n}\n\n.image {\n  object-fit: contain;\n  width: 100%;\n  max-width: 100%;\n\n  @media (max-width: $mobile-breakpoint) {\n    margin-bottom: 1rem;\n  }\n}\n\n.list-item {\n  margin-left: -5px;\n}\n\n.btn {\n  margin-top: 2rem;\n\n  @media (max-width: $mobile-breakpoint) {\n    \u0026-container {\n      display: flex;\n      justify-content: center;\n    }\n  }\n\n  \u0026-no-image-container {\n    display: flex;\n    justify-content: center;\n  }\n}\n",
+          "Js": "",
+          "ListParamEntries": [],
+          "ModuleId": "JHitG89y9v",
+          "Scss": "$mobile-breakpoint: 767px;\n\nul {\n  margin-left: -20px;\n}\n\nli:not(:first-child) {\n  margin-top: 1rem;\n}\n\n.module-container {\n  padding: 2rem;\n}\n\n.headline {\n  font-weight: 500;\n  text-align: center;\n}\n\n.paragraph {\n  font-size: 16px;\n  text-align: center;\n\n  \u0026-row {\n    margin-top: 2rem;\n  }\n}\n\n.body {\n  \u0026-row {\n    margin-top: 2rem;\n  }\n\n  \u0026-section {\n    justify-content: center;\n  }\n}\n\n.image {\n  object-fit: contain;\n  width: 100%;\n  max-width: 100%;\n\n  @media (max-width: $mobile-breakpoint) {\n    margin-bottom: 1rem;\n  }\n}\n\n.list-item {\n  margin-left: -5px;\n}\n\n.btn {\n  margin-top: 2rem;\n\n  @media (max-width: $mobile-breakpoint) {\n    \u0026-container {\n      display: flex;\n      justify-content: center;\n    }\n  }\n\n  \u0026-no-image-container {\n    display: flex;\n    justify-content: center;\n  }\n}\n"
+        },
+        {
+          "ContentMapEntries": [
+            {
+              "ExternalEntityId": "",
+              "InputType": "",
+              "Sink": "overrideColor"
+            }
+          ],
+          "DefaultScss": ".module {\n  \u0026-divider {\n    padding: 0;\n\n    .hr {\n      width: 100%;\n      height: 1px;\n      background-color: #e5e5e5; // this is the default \u003chr\u003e color\n    }\n  }\n}\n",
+          "Js": "",
+          "ListParamEntries": [],
+          "ModuleId": "HuBdy7uBuR",
+          "Scss": ".module {\n  \u0026-divider {\n    padding: 0;\n\n    .hr {\n      width: 100%;\n      height: 1px;\n      background-color: #e5e5e5; // this is the default \u003chr\u003e color\n    }\n  }\n}\n"
+        },
+        {
+          "ContentMapEntries": [
+            {
+              "ExternalEntityId": "",
+              "ImageUrl": "https://a.mktgcdn.com/p-sandbox/jUlOCzBM763go7OQgQBJ16_OhkbBgPfhfZhHdsuHTdY/2880x1920.jpg",
+              "InputType": "CONSTANT",
+              "Sink": "image"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "CONSTANT",
+              "Sink": "headline",
+              "StringValue": "About Turtlehead Tacos"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "CONSTANT",
+              "Sink": "paragraph",
+              "StringValue": "Founded in 2005 by Marty Morris in Austin, TX, Turtlehead Tacos strives to be your go-to destination for all things Tacos!  We are more than just a restaurant, we\u0027re a destination. We are committed to providing our customers with family (and pet!) friendly services, fresh food, and just general good vibes. \n\nWe\u0027re also expanding quickly! We have over 50 locations with plans to open many more. We are hiring for all departments, including our restaurant team and corporate functions like Marketing, Legal, Finance, Operations and more. \n\nJoin our team to be part of a fast-paced, lively, caring culture striving to become the Taco Destination of America. "
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "FIELD",
+              "SelectedField": [
+                "none"
+              ],
+              "Sink": "ctaText"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "",
+              "Sink": "ctaURL",
+              "StringValue": "#"
+            }
+          ],
+          "DefaultScss": "padding: 2rem 0;\n\n.image {\n    width: 100%;\n}\n\n.left-column {\n    // Not included in IE\n    @supports not (-ms-high-contrast: none) {\n        display: flex;\n        flex-direction: column;\n        justify-content: center;\n    }\n\n    img.image {\n    }\n}\n\n.right-column {\n    // Not included in IE\n    @supports not (-ms-high-contrast: none) {\n        display: flex;\n        flex-direction: column;\n        justify-content: flex-start;\n    }\n\n    .headline {\n        margin-bottom: 16px;\n    }\n\n    img.image {\n        display: none; // Hidden on Desktop\n        margin-bottom: 16px;\n    }\n\n    .paragraph {\n      margin-bottom: 1rem;\n    }\n\n    .cta-container {\n        .cta {\n        }\n    }\n}\n\n// Style for mobile\n$grid-breakpoints: (\n  xs: 0,\n  sm: 576px,\n  md: 768px,\n  lg: 992px,\n  xl: 1200px\n) !default;\n\n @media (max-width: map-get($grid-breakpoints, \"md\")) {\n    .left-column {\n        display: none;\n    }\n\n    .right-column {\n        .headline {\n            text-align: center;\n        }\n\n        img.image {\n            display: block;\n        }\n\n        .cta-container {\n            text-align: center;\n        }\n    }\n\n }\n\n",
+          "Js": "",
+          "ListParamEntries": [],
+          "ModuleId": "uHuNNFuyJR",
+          "Scss": "padding: 2rem 0;\n\n.image {\n    width: 100%;\n}\n\n.left-column {\n    // Not included in IE\n    @supports not (-ms-high-contrast: none) {\n        display: flex;\n        flex-direction: column;\n        justify-content: center;\n    }\n\n    img.image {\n    }\n}\n\n.right-column {\n    // Not included in IE\n    @supports not (-ms-high-contrast: none) {\n        display: flex;\n        flex-direction: column;\n        justify-content: flex-start;\n    }\n\n    .headline {\n        margin-bottom: 16px;\n    }\n\n    img.image {\n        display: none; // Hidden on Desktop\n        margin-bottom: 16px;\n    }\n\n    .paragraph {\n      margin-bottom: 1rem;\n    }\n\n    .cta-container {\n        .cta {\n        }\n    }\n}\n\n// Style for mobile\n$grid-breakpoints: (\n  xs: 0,\n  sm: 576px,\n  md: 768px,\n  lg: 992px,\n  xl: 1200px\n) !default;\n\n @media (max-width: map-get($grid-breakpoints, \"md\")) {\n    .left-column {\n        display: none;\n    }\n\n    .right-column {\n        .headline {\n            text-align: center;\n        }\n\n        img.image {\n            display: block;\n        }\n\n        .cta-container {\n            text-align: center;\n        }\n    }\n\n }\n\n"
+        }
+      ],
+      "ThemeMapping": {
+        "ContentMapEntries": [
+          {
+            "ExternalEntityId": "",
+            "InputType": "",
+            "SelectedField": [
+              "name"
+            ],
+            "Sink": "pageTitle"
+          },
+          {
+            "ExternalEntityId": "",
+            "InputType": "",
+            "SelectedField": [
+              "description"
+            ],
+            "Sink": "metaDescription"
+          },
+          {
+            "ExternalEntityId": "",
+            "InputType": "",
+            "Sink": "metaKeywords"
+          },
+          {
+            "ExternalEntityId": "",
+            "InputType": "",
+            "Sink": "conversionTracking",
+            "StringValue": ""
+          }
+        ],
+        "DefaultScss": "$web-font-path: \"https://fonts.googleapis.com/css?family\u003dSource+Sans+Pro:300,400,700\" !default;\r\n@import url($web-font-path);\r\n\r\n\r\n$white:    #fff !default;\r\n$gray-100: #f8f9fa !default;\r\n$gray-200: #e9ecef !default;\r\n$gray-300: #dee2e6 !default;\r\n$gray-400: #ced4da !default;\r\n$gray-500: #adb5bd !default;\r\n$gray-600: #868e96 !default;\r\n$gray-700: #495057 !default;\r\n$gray-800: #373a3c !default;\r\n$gray-900: #212529 !default;\r\n$black:    #000 !default;\r\n\r\n$blue:    #2780E3 !default;\r\n$indigo:  #6610f2 !default;\r\n$purple:  #613d7c !default;\r\n$pink:    #e83e8c !default;\r\n$red:     #FF0039 !default;\r\n$orange:  #f0ad4e !default;\r\n$yellow:  #FF7518 !default;\r\n$green:   #3FB618 !default;\r\n$teal:    #20c997 !default;\r\n$cyan:    #9954BB !default;\r\n\r\n$primary:       $blue !default;\r\n$secondary:     $gray-800 !default;\r\n$success:       $green !default;\r\n$info:          $cyan !default;\r\n$warning:       $yellow !default;\r\n$danger:        $red !default;\r\n$light:         $gray-100 !default;\r\n$dark:          $gray-800 !default;\r\n\r\n// Options\r\n\r\n$enable-rounded: false !default;\r\n\r\n// Body\r\n\r\n$body-color:    $gray-800 !default;\r\n\r\n// Fonts\r\n\r\n$font-family-sans-serif: \"Segoe UI\", \"Source Sans Pro\", Calibri, Candara, Arial, sans-serif !default;\r\n\r\n$font-size-base: 0.9375rem !default;\r\n\r\n$headings-font-weight:   300 !default;\r\n\r\n// Navbar\r\n\r\n$navbar-dark-hover-color:           rgba($white,1) !default;\r\n\r\n$navbar-light-hover-color:          rgba($black,.9) !default;\r\n\r\n// Alerts\r\n\r\n$alert-border-width:                0 !default;\r\n\r\n// Progress bars\r\n\r\n$progress-height:               0.5rem !default;\r\n\r\n@import \"bootstrap\";\r\n\r\n\r\nbody {\r\n  -webkit-font-smoothing: antialiased;\r\n}\r\n\r\n",
+        "Js": "",
+        "Scss": "$web-font-path: \"https://fonts.googleapis.com/css?family\u003dSource+Sans+Pro:300,400,700\" !default;\r\n@import url($web-font-path);\r\n\r\n\r\n$white:    #fff !default;\r\n$gray-100: #f8f9fa !default;\r\n$gray-200: #e9ecef !default;\r\n$gray-300: #dee2e6 !default;\r\n$gray-400: #ced4da !default;\r\n$gray-500: #adb5bd !default;\r\n$gray-600: #868e96 !default;\r\n$gray-700: #495057 !default;\r\n$gray-800: #373a3c !default;\r\n$gray-900: #212529 !default;\r\n$black:    #000 !default;\r\n\r\n$blue:    #2780E3 !default;\r\n$indigo:  #6610f2 !default;\r\n$purple:  #613d7c !default;\r\n$pink:    #e83e8c !default;\r\n$red:     #FF0039 !default;\r\n$orange:  #f0ad4e !default;\r\n$yellow:  #FF7518 !default;\r\n$green:   #3FB618 !default;\r\n$teal:    #20c997 !default;\r\n$cyan:    #9954BB !default;\r\n\r\n$primary:       $blue !default;\r\n$secondary:     $gray-800 !default;\r\n$success:       $green !default;\r\n$info:          $cyan !default;\r\n$warning:       $yellow !default;\r\n$danger:        $red !default;\r\n$light:         $gray-100 !default;\r\n$dark:          $gray-800 !default;\r\n\r\n// Options\r\n\r\n$enable-rounded: false !default;\r\n\r\n// Body\r\n\r\n$body-color:    $gray-800 !default;\r\n\r\n// Fonts\r\n\r\n$font-family-sans-serif: \"Segoe UI\", \"Source Sans Pro\", Calibri, Candara, Arial, sans-serif !default;\r\n\r\n$font-size-base: 0.9375rem !default;\r\n\r\n$headings-font-weight:   300 !default;\r\n\r\n// Navbar\r\n\r\n$navbar-dark-hover-color:           rgba($white,1) !default;\r\n\r\n$navbar-light-hover-color:          rgba($black,.9) !default;\r\n\r\n// Alerts\r\n\r\n$alert-border-width:                0 !default;\r\n\r\n// Progress bars\r\n\r\n$progress-height:               0.5rem !default;\r\n\r\n@import \"bootstrap\";\r\n\r\n\r\nbody {\r\n  -webkit-font-smoothing: antialiased;\r\n}\r\n\r\n"
+      }
+    },
+    "DesignParameterConfig": {
+      "BodyFont": {
+        "Alignment": "",
+        "Color": "",
+        "FontFamily": "Lato",
+        "FontWeight": 400,
+        "LineHeight": 0,
+        "TextScale": "",
+        "TextTransform": "",
+        "Uppercase": false
+      },
+      "Buttons": {
+        "Font": {
+          "Alignment": "",
+          "Color": "",
+          "FontFamily": "Alfa Slab One",
+          "FontWeight": 400,
+          "LineHeight": 0,
+          "TextScale": "",
+          "TextTransform": "",
+          "Uppercase": false
+        },
+        "LetterSpacing": "",
+        "Padding": "small",
+        "Radius": 0,
+        "Rounded": false,
+        "Uppercase": false
+      },
+      "Colors": {
+        "Background": "#ffffff",
+        "Primary": "#c81500",
+        "Secondary": "#000000"
+      },
+      "HeaderFont": {
+        "Alignment": "",
+        "Color": "",
+        "FontFamily": "Alfa Slab One",
+        "FontWeight": 400,
+        "LineHeight": 0,
+        "TextScale": "",
+        "TextTransform": "",
+        "Uppercase": false
+      },
+      "Other": {
+        "MaxWidth": 0,
+        "SectionSpacing": "",
+        "Spacer": 0
+      }
+    },
+    "FooterHtml": "",
+    "HeaderHtml": "",
+    "ModuleInstances": [
+      {
+        "DisplayNameOverride": "",
+        "Id": "HJH_0t9l9v",
+        "Module": "nav_bar",
+        "Version": 22
+      },
+      {
+        "DisplayNameOverride": "",
+        "Id": "u99U0wuYuR",
+        "Module": "centered_hero",
+        "Version": 17
+      },
+      {
+        "DisplayNameOverride": "",
+        "Id": "J9u_xt9l9_",
+        "Module": "job_details",
+        "Version": 5
+      },
+      {
+        "DisplayNameOverride": "",
+        "Id": "HuBdy7uBuR",
+        "Module": "divider",
+        "Version": 12
+      },
+      {
+        "DisplayNameOverride": "",
+        "Id": "JHitG89y9v",
+        "Module": "item_list",
+        "Version": 19
+      },
+      {
+        "DisplayNameOverride": "",
+        "Id": "uJHUxsuyu_",
+        "Module": "item_list_i",
+        "Version": 12
+      },
+      {
+        "DisplayNameOverride": "",
+        "Id": "uHuNNFuyJR",
+        "Module": "about_this_page",
+        "Version": 27
+      },
+      {
+        "DisplayNameOverride": "",
+        "Id": "JH9R4tHluv",
+        "Module": "footer",
+        "Version": 18
+      }
+    ],
+    "Path": "",
+    "Schema": "",
+    "SinglePageConfig": {
+      "Path": ""
+    },
+    "Theme": "cosmo",
+    "ThemeVersion": 1
+  },
+  "PageSetType": "TEMPLATE"
+}
